@@ -51,7 +51,9 @@ print(f"Hello {name}! your favourite colour is {colour}, your favourite food is 
 #
 # - Add another part to the story (e.g. favourite place, favourite animal).
 # - Save, commit and push your changes.
-#
+place = input(f"Enter your favourite place: ")
+animal = input(f"Enter your favourite animal: ")
+print(f"Hello {name}! your favourite colour is {colour}, favourite food is {food}, hobby is {hobby}, favourite place is {place} and your favourite animal {animal}.")
 # -------------------------------------------
 # Step 4: Everyone
 # -------------------------------------------
@@ -67,7 +69,9 @@ print(f"Hello {name}! your favourite colour is {colour}, your favourite food is 
 # - Example:
 #   print(f"Welcome {name}! Your favourite colour is {colour} and you love {food}.")
 #   print(f"One day, you went to {place} with a {colour} {animal} while eating {food}!")
-#
+print(f"Welcome {name}! Your favourite colour is {colour} and you love {food}.")
+print(f"One day, you went to {place} with a {colour} {animal} while eating {food}!")
+
 # - Commit and push your extension:
 #    git add story.py
 #    git commit -m "Completed group story extension"
