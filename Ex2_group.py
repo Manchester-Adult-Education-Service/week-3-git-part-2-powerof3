@@ -19,7 +19,7 @@
 #    git commit -m "Created base story file"
 #    git push origin main
 
-name = input("What is your name? ")
+name = input("What is your name?: ")
 print(f"Welcome {name}, let's start a story together!")
 
 # -------------------------------------------
@@ -34,7 +34,10 @@ print(f"Welcome {name}, let's start a story together!")
 # Example:
 # colour = input("What is your favourite colour? ")
 # print(f"Great choice, {colour} is a wonderful colour!")
-#
+colour = input(f"Enter your favourite colour: ")
+food = input(f"Enter your favourite food: ")
+hobby = input(f"Enter your hobby: ")
+print(f"Hello {name}! your favourite colour is {colour}, your favourite food is {food} and you play {hobby} in your spare time.")
 # - Save the file, commit and push:
 #    git add story.py
 #    git commit -m "Added colour choice to story"
