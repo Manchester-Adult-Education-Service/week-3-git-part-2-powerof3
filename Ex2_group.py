@@ -18,7 +18,10 @@
 #    git add story.py
 #    git commit -m "Created base story file"
 #    git push origin main
-#
+
+name = input("What is your name? ")
+print(f"Welcome {name}, let's start a story together!")
+
 # -------------------------------------------
 # Step 2: Second Learner
 # -------------------------------------------
